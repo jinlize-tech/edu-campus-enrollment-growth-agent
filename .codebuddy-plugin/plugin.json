@@ -1,0 +1,63 @@
+{
+  "name": "edu-campus-enrollment-growth-agent",
+  "version": "1.0.0",
+  "description": "Multi-step education operations assistant for Campus Enrollment Growth Agent.",
+  "author": {
+    "name": "广州金励泽科技服务有限公司",
+    "email": "270911570+yangsongbaofu-dot@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/edu-campus-enrollment-growth-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "edu-campus-enrollment-growth-agent",
+  "displayName": {
+    "en": "Campus Enrollment Growth Agent",
+    "zh": "校区招生增长诊断"
+  },
+  "profession": {
+    "en": "Campus Enrollment Growth Agent",
+    "zh": ""
+  },
+  "displayDescription": {
+    "en": "A multi-step education agent for Campus Enrollment Growth Agent, producing reviewable plans with human checkpoints.",
+    "zh": "提供校区招生增长诊断专业协作，完成多步骤分析、方案设计与复盘，输出可执行成果并保留人工确认。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "en": "Help me complete Campus Enrollment Growth Agent.",
+    "zh": "请帮我完成一次校区招生增长诊断"
+  },
+  "plugin": "edu-campus-enrollment-growth-agent",
+  "tags": [
+    {
+      "en": "Enrollment Marketing",
+      "zh": "招生营销"
+    },
+    {
+      "en": "Education",
+      "zh": "教培机构"
+    },
+    {
+      "en": "Growth",
+      "zh": "增长运营"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me complete Campus Enrollment Growth Agent.",
+      "zh": "请帮我完成一次校区招生增长诊断"
+    },
+    {
+      "en": "Diagnose my supplied education-business information and propose next steps.",
+      "zh": "请诊断我提供的业务资料并给出下一步行动"
+    },
+    {
+      "en": "Generate 招生诊断表、增长机会排序、30/60/90天行动计划、指标和复盘机制 with risks and open questions.",
+      "zh": "请生成招生诊断表、增长机会排序、30/60/90天行动计划、指标和复盘机制，并列出风险与待确认事项"
+    }
+  ],
+  "homepage": "https://github.com/jinlize-tech/edu-campus-enrollment-growth-agent",
+  "license": "Apache-2.0"
+}
