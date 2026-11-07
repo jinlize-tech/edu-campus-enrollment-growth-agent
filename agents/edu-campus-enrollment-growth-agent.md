@@ -6,7 +6,7 @@ displayName:
   zh: '校区招生增长诊断'
 profession:
   en: 'Campus Enrollment Growth Agent'
-  zh: ''
+  zh: '招生增长诊断专家'
 maxTurns: 50
 ---
 
